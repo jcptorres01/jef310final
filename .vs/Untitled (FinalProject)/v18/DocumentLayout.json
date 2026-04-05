@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scrips\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|c:\\users\\fflor\\onedrive\\desktop\\spring 2026\\game 310\\final project\\untitled (finalproject)\\assets\\scrips\\item behavior scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\item behavior scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scrips\\item behavior scripts\\weaponso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\item behavior scripts\\weaponso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scrips\\item behavior scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\item behavior scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scrips\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|c:\\users\\fflor\\onedrive\\desktop\\spring 2026\\game 310\\final project\\untitled (finalproject)\\assets\\scrips\\item behavior scripts\\ipickable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\item behavior scripts\\ipickable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scrips\\item behavior scripts\\weaponpickable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\item behavior scripts\\weaponpickable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPickable.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\Item Behavior Scripts\\IPickable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\Item Behavior Scripts\\IPickable.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\Item Behavior Scripts\\IPickable.cs",
+              "RelativeToolTip": "Assets\\Scrips\\Item Behavior Scripts\\IPickable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:14:03.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerInventory.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\Item Behavior Scripts\\PlayerInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\Item Behavior Scripts\\PlayerInventory.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\Item Behavior Scripts\\PlayerInventory.cs",
+              "RelativeToolTip": "Assets\\Scrips\\Item Behavior Scripts\\PlayerInventory.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAiwGcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:13:59.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeaponSO.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\Item Behavior Scripts\\WeaponSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\Item Behavior Scripts\\WeaponSO.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\Item Behavior Scripts\\WeaponSO.cs",
+              "RelativeToolTip": "Assets\\Scrips\\Item Behavior Scripts\\WeaponSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:13:59.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Scrips\\PauseMenu.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:13:59.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeaponPickable.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\Item Behavior Scripts\\WeaponPickable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\Item Behavior Scripts\\WeaponPickable.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\Item Behavior Scripts\\WeaponPickable.cs",
+              "RelativeToolTip": "Assets\\Scrips\\Item Behavior Scripts\\WeaponPickable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:13:59.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scrips\\PlayerMovement.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:13:59.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\Item Behavior Scripts\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\Item Behavior Scripts\\Item.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scrips\\Item Behavior Scripts\\Item.cs",
+              "RelativeToolTip": "Assets\\Scrips\\Item Behavior Scripts\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:13:59.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
