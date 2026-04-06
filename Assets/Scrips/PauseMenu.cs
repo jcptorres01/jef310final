@@ -52,10 +52,13 @@ public class PauseMenu : MonoBehaviour
 
     public void GoToMainMenu()
     {
+        //Cursor.lockState = CursorLockMode.None;
+        //Cursor.visible = true;
+        //pauseMenu.SetActive(false);
         isPaused = false;
         Time.timeScale = 1f;
-        //SceneManager.LoadScene("MainMenu");
-        Debug.Log("Player would have been sent to main menu!!");
+        SceneManager.LoadScene(0);
+        
 
     }
 
