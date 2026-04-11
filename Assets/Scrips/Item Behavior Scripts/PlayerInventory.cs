@@ -11,6 +11,7 @@ public class PlayerInventory : MonoBehaviour
     [SerializeField] Camera cam;
     [SerializeField] Transform itemHolder; // where held items appear
     [SerializeField] GameObject pressToPickup;
+    [SerializeField] Transform rayOrigin; // the object from which the ray will fire
 
     [Header("UI")]
     [SerializeField] Image[] inventorySlotImage;
@@ -21,6 +22,7 @@ public class PlayerInventory : MonoBehaviour
     public int playerReach = 3;
     public KeyCode throwItemKey = KeyCode.Q;
     public KeyCode pickUpItemKey = KeyCode.E;
+    public KeyCode useItemKey = KeyCode.Mouse0;
 
     private int selectedItem = 0;
 
@@ -31,10 +33,12 @@ public class PlayerInventory : MonoBehaviour
         HandleScrollInput();
         HandlePickup();
         HandleThrow();
+        HandleUseItem();
         UpdateUI();
 
         // Draw debug ray in scene view
-        Debug.DrawRay(cam.transform.position, cam.transform.forward * playerReach, Color.red);
+        Transform origin = rayOrigin != null ? rayOrigin : cam.transform;
+        Debug.DrawRay(origin.position, origin.forward * playerReach, Color.red);
     }
 
     // ---------------- SCROLL SWITCH ----------------
@@ -66,10 +70,12 @@ public class PlayerInventory : MonoBehaviour
     void HandlePickup()
     {
         float rayRadius = 0.5f; // adjust this to make the area bigger
-        Ray ray = new Ray(cam.transform.position, cam.transform.forward);
+        Transform origin = rayOrigin != null ? rayOrigin : cam.transform;
+
+        Ray ray = new Ray(origin.position, origin.forward);
 
         // Draw debug ray in the Scene view
-        Debug.DrawRay(cam.transform.position, cam.transform.forward * playerReach, Color.red);
+        Debug.DrawRay(origin.position, origin.forward * playerReach, Color.red);
 
         // Perform SphereCastAll to get all hits along the ray
         RaycastHit[] hits = Physics.SphereCastAll(ray, rayRadius, playerReach);
@@ -82,7 +88,7 @@ public class PlayerInventory : MonoBehaviour
         {
             if (hit.collider.CompareTag("ItemPickUp"))
             {
-                float distance = Vector3.Distance(cam.transform.position, hit.point);
+                float distance = Vector3.Distance(origin.position, hit.point);
                 if (distance < closestDistance)
                 {
                     closestDistance = distance;
@@ -101,15 +107,21 @@ public class PlayerInventory : MonoBehaviour
                 IPickable pickable = closestItemHit.Value.collider.GetComponent<IPickable>();
                 if (pickable != null)
                 {
-                    //inventoryList.Add(closestItemHit.Value.collider.GetComponent<WeaponPickable>().weaponScriptableObject.itemPrefab);
                     pickable.PickItem();
                 }
             }
         }
         else
         {
-            // No pickable item detected
             pressToPickup.SetActive(false);
+        }
+    }
+
+    void HandleUseItem()
+    {
+        if (Input.GetKeyDown(useItemKey) && inventoryList.Count > 0)
+        {
+            UseHeldItem();
         }
     }
 
@@ -139,19 +151,24 @@ public class PlayerInventory : MonoBehaviour
     }
 
     // ---------------- ADD ITEM ----------------
+    
     public void AddItem(WeaponSO item)
     {
         inventoryList.Add(item);
 
         // Spawn held object
         GameObject newItem = Instantiate(item.itemPrefab, itemHolder);
+
+        newItem.transform.localPosition = Vector3.zero;
+        newItem.transform.localRotation = Quaternion.identity;
+
         newItem.SetActive(false);
 
         spawnedItems.Add(newItem);
 
         UpdateHeldItem();
     }
-
+   
     // ---------------- EQUIP ITEM ----------------
     void UpdateHeldItem()
     {
@@ -175,7 +192,7 @@ public class PlayerInventory : MonoBehaviour
                 inventorySlotImage[i].sprite = emptySlotSprite;
             }
         }
-
+        /*
         for (int i = 0; i < inventoryBackgroundImage.Length; i++)
         {
             inventoryBackgroundImage[i].color =
@@ -183,5 +200,13 @@ public class PlayerInventory : MonoBehaviour
                 ? new Color32(145, 255, 126, 255)
                 : new Color32(219, 219, 219, 255);
         }
+        */
+    }
+
+    void UseHeldItem()
+    {
+        if (spawnedItems.Count == 0) return;
+
+        Debug.Log("Using item: " + inventoryList[selectedItem].name);
     }
 }
