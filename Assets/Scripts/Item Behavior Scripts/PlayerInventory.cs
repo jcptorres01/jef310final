@@ -104,10 +104,10 @@ public class PlayerInventory : MonoBehaviour
 
             if (Input.GetKeyDown(pickUpItemKey))
             {
-                IPickable pickable = closestItemHit.Value.collider.GetComponent<IPickable>();
-                if (pickable != null)
+                IInteract interactable = closestItemHit.Value.collider.GetComponent<IInteract>();
+                if (interactable != null)
                 {
-                    pickable.PickItem();
+                    interactable.Interacting();
                 }
             }
         }
