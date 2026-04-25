@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 8099258174738454366}
   - component: {fileID: 2602515065401075477}
   - component: {fileID: 698809433982583093}
+  - component: {fileID: 9136987768285382972}
+  - component: {fileID: 5683529699662167879}
+  - component: {fileID: 3191141093622981956}
   - component: {fileID: 396895034710896516}
   m_Layer: 0
   m_Name: DoorToNextScene
@@ -106,6 +109,55 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &9136987768285382972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179340133618694327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8850821773b9690478ee2b0dff96ba08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keypadUI: {fileID: 0}
+  correctCode: 1234
+  maxLength: 4
+  loadNextSceneInstead: 1
+  sceneLoader: {fileID: 396895034710896516}
+--- !u!114 &5683529699662167879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179340133618694327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317d25b913544024b936e524566b09b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredKey: {fileID: 11400000, guid: 310c46574cfa24049b429533eaafea71, type: 2}
+  playerInventory: {fileID: 0}
+  loadNextSceneInstead: 1
+  sceneLoader: {fileID: 396895034710896516}
+--- !u!114 &3191141093622981956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179340133618694327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8d9fc19eadfba41ac4486858a0783e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statue: {fileID: 0}
+  sceneLoader: {fileID: 396895034710896516}
+  requiredYRotation: 90
+  tolerance: 5
 --- !u!114 &396895034710896516
 MonoBehaviour:
   m_ObjectHideFlags: 0

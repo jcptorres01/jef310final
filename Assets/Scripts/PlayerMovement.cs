@@ -85,4 +85,14 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
+
+    public void SetMovementFrozen(bool frozen)
+    {
+        canMove = !frozen;
+
+        if (frozen)
+        {
+            moveDirection = Vector3.zero;
+        }
+    }
 }

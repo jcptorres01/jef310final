@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8757414065660718905}
   - component: {fileID: 2098019564820007168}
   m_Layer: 0
-  m_Name: AxeItemPickup
+  m_Name: KeyItemPickup
   m_TagString: ItemPickUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170,7 +170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8450967837433379141, guid: 642f6fb9c9494c44d87c48f72ab17813, type: 3}
       propertyPath: m_Name
-      value: Axe_Item
+      value: Key_Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

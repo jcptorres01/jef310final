@@ -20,6 +20,8 @@ public class PlayerMovementBehavior : MonoBehaviour
 
     bool readyToJump;
 
+    public bool canMove = true;
+
     [HideInInspector] public float sprintSpeed;
 
     [Header("Keybinds")]
@@ -45,7 +47,7 @@ public class PlayerMovementBehavior : MonoBehaviour
     float horizontalInput;
     float verticalInput;
 
-    bool isSneaking;
+    public bool isSneaking;
 
     Vector3 moveDirection;
     Rigidbody rb;
@@ -82,6 +84,14 @@ public class PlayerMovementBehavior : MonoBehaviour
 
     private void MyInput()
     {
+        if (!canMove)
+        {
+            horizontalInput = 0;
+            verticalInput = 0;
+            isSneaking = false;
+            return;
+        }
+
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
@@ -97,6 +107,9 @@ public class PlayerMovementBehavior : MonoBehaviour
 
     private void MovePlayer()
     {
+        if (!canMove)
+            return;
+
         moveDirection = orientation.forward * verticalInput +
                         orientation.right * horizontalInput;
 
@@ -131,5 +144,17 @@ public class PlayerMovementBehavior : MonoBehaviour
     private void ResetJump()
     {
         readyToJump = true;
+    }
+
+    public void SetMovementFrozen(bool frozen)
+    {
+        canMove = !frozen;
+
+        if (frozen)
+        {
+            rb.velocity = Vector3.zero;
+            horizontalInput = 0;
+            verticalInput = 0;
+        }
     }
 }
