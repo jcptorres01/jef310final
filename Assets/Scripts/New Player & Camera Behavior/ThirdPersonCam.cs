@@ -23,7 +23,6 @@ public class ThirdPersonCam : MonoBehaviour
     public enum CameraStyle
     {
         Basic,
-        //Combat,
         Topdown
     }
 
@@ -38,14 +37,7 @@ public class ThirdPersonCam : MonoBehaviour
 
     private void Update()
     {
-        // switch styles
-        //if (Input.GetKeyDown(KeyCode.Alpha1)) SwitchCameraStyle(CameraStyle.Basic);
-        //if (Input.GetKeyDown(KeyCode.Alpha2)) SwitchCameraStyle(CameraStyle.Combat);
-        //if (Input.GetKeyDown(KeyCode.Alpha3)) SwitchCameraStyle(CameraStyle.Topdown);
-
-        // rotate orientation
-        //Vector3 viewDir = player.position - new Vector3(transform.position.x, player.position.y, transform.position.z);
-        //orientation.forward = viewDir.normalized;
+        
         Vector3 viewDir = cameraTransform.forward;
         viewDir.y = 0f;
         orientation.forward = viewDir.normalized;
@@ -62,21 +54,6 @@ public class ThirdPersonCam : MonoBehaviour
                 playerObj.forward = Vector3.Slerp(playerObj.forward, inputDir.normalized, Time.deltaTime * rotationSpeed);
         }
 
-        /*
-        else if (currentStyle == CameraStyle.Combat)
-        {
-            //Vector3 dirToCombatLookAt = combatLookAt.position - new Vector3(transform.position.x, combatLookAt.position.y, transform.position.z);
-            //orientation.forward = dirToCombatLookAt.normalized;
-            //playerObj.forward = dirToCombatLookAt.normalized;
-
-            Vector3 camDir = Camera.main.transform.forward;
-            camDir.y = 0f;
-
-            orientation.forward = camDir.normalized;
-            playerObj.forward = camDir.normalized;
-        }
-        */
-
         else if (currentStyle == CameraStyle.Topdown)
         {
             float horizontalInput = Input.GetAxis("Horizontal");
@@ -92,12 +69,11 @@ public class ThirdPersonCam : MonoBehaviour
 
     public void SwitchCameraStyle(CameraStyle newStyle)
     {
-        //combatCam.SetActive(false);
+        
         thirdPersonCam.SetActive(false);
         topDownCam.SetActive(false);
 
         if (newStyle == CameraStyle.Basic) thirdPersonCam.SetActive(true);
-        //if (newStyle == CameraStyle.Combat) combatCam.SetActive(true);
         if (newStyle == CameraStyle.Topdown) topDownCam.SetActive(true);
 
         currentStyle = newStyle;

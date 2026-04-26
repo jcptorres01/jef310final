@@ -2,47 +2,40 @@ using UnityEngine;
 
 public class SneakTriggerZone : MonoBehaviour
 {
+    public GameObject sneakOverlayUI;
+
+    private PlayerMovementBehavior player;
+
     private void OnTriggerEnter(Collider other)
     {
-        PlayerMovementBehavior player = other.GetComponentInParent<PlayerMovementBehavior>();
-
-        if (player != null)
-        {
-            if (player.isSneaking == true)
-            {
-                Debug.Log("Player entered while sneaking.");
-                // Do sneaking-specific logic here
-            }
-            else
-            {
-                Debug.Log("Player entered but is NOT sneaking.");
-                // Optional: handle non-sneak case
-            }
-        }
+        player = other.GetComponentInParent<PlayerMovementBehavior>();
     }
 
     private void OnTriggerStay(Collider other)
     {
-        PlayerMovementBehavior player = other.GetComponentInParent<PlayerMovementBehavior>();
+        if (player == null) return;
 
-        if (player != null)
+        if (player.isSneaking)
         {
-            if (player.isSneaking == true)
-            {
-                Debug.Log("Player is currently sneaking inside the zone.");
-                // Useful if you want continuous checking
-            }
+            sneakOverlayUI.SetActive(true);
+            player.SetHidden(true);   //PLAYER IS HIDDEN
+        }
+        else
+        {
+            sneakOverlayUI.SetActive(false);
+            player.SetHidden(false); // NOT HIDDEN
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        PlayerMovementBehavior player = other.GetComponentInParent<PlayerMovementBehavior>();
+        PlayerMovementBehavior exitingPlayer = other.GetComponentInParent<PlayerMovementBehavior>();
 
-        if (player != null)
+        if (exitingPlayer != null)
         {
-            Debug.Log("Player exited the trigger zone.");
-            // Cleanup / reset logic here
+            sneakOverlayUI.SetActive(false);
+            exitingPlayer.SetHidden(false); // leaving grass = visible
+            player = null;
         }
     }
 }

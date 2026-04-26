@@ -7,7 +7,20 @@ public class KeypadUI : MonoBehaviour
     public DoorKeypad doorKeypad; // reference to your door script
     public TextMeshProUGUI displayText;
 
+    public KeyCode removeUI = KeyCode.Escape;
+
     private string displayInput = "";
+
+    void Update()
+    {
+        // Only listen when keypad is active
+        if (!gameObject.activeInHierarchy) return;
+
+        if (Input.GetKeyDown(removeUI))
+        {
+            CloseKeypad();
+        }
+    }
 
     // Called by buttons (1–9)
     public void PressNumber(string number)
@@ -43,6 +56,7 @@ public class KeypadUI : MonoBehaviour
     public void CloseKeypad()
     {
         doorKeypad.CloseKeypad();
-        ClearDisplay();
     }
+
+
 }

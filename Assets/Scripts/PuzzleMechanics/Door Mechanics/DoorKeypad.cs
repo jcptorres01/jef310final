@@ -11,6 +11,8 @@ public class DoorKeypad : MonoBehaviour, IInteract
 
     public PlayerMovementBehavior player;
 
+    public KeypadUI keypadUIController;
+
     public void Interacting()
     {
         keypadUI.SetActive(true);
@@ -70,18 +72,20 @@ public class DoorKeypad : MonoBehaviour, IInteract
 
         keypadUI.SetActive(false);
 
-        // Restore gameplay
         Time.timeScale = 1f;
 
         player.SetMovementFrozen(false);
-       
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        
-
         ResetInput();
+
+        // Tell UI to clear display
+        if (keypadUIController != null)
+        {
+            keypadUIController.ClearDisplay();
+        }
     }
 
     public void ResetInput()

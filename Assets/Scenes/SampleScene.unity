@@ -219,6 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eb87701506ddcd49be11e0ccbef3ec7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sneakOverlayUI: {fileID: 0}
 --- !u!114 &89947527 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8737907167617000766, guid: 5ca674e45387ce64c9fac7080df8deb2, type: 3}
@@ -268,6 +269,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1624906067112109681, guid: 5ca674e45387ce64c9fac7080df8deb2, type: 3}
   m_PrefabInstance: {fileID: 5930937403320307962}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &290063422 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5469341219269516415, guid: 5ca674e45387ce64c9fac7080df8deb2, type: 3}
+  m_PrefabInstance: {fileID: 5930937403320307962}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290063420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378978ca167748847ad0b1c70e7a5ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &327431332 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 466196376078116125, guid: 5ca674e45387ce64c9fac7080df8deb2, type: 3}
@@ -672,6 +684,10 @@ PrefabInstance:
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 593983042}
+    - target: {fileID: 9136987768285382972, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
+      propertyPath: keypadUIController
+      value: 
+      objectReference: {fileID: 290063422}
     - target: {fileID: 9179340133618694327, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
       propertyPath: m_Name
       value: DoorToNextScene
@@ -841,11 +857,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 51817547866163609, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000020840062
+      value: 0.000000020840062
       objectReference: {fileID: 0}
     - target: {fileID: 51817547866163609, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000001256228
+      value: -0.00000001256228
       objectReference: {fileID: 0}
     - target: {fileID: 1162492281120366474, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalRotation.y
@@ -883,6 +899,10 @@ PrefabInstance:
       propertyPath: 'startingItems.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: 65d88b19a3be5a141a6fa13acd935bdd, type: 2}
+    - target: {fileID: 4940635008833851299, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
+      propertyPath: inventorySlotImage.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4940635008833851299, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: 'inventorySlotImage.Array.data[0]'
       value: 
@@ -940,6 +960,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 767137574}
     - target: {fileID: 4940635008833851299, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
+      propertyPath: inventoryBackgroundImage.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940635008833851299, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: 'inventoryBackgroundImage.Array.data[0]'
       value: 
       objectReference: {fileID: 2028944399}
@@ -995,6 +1019,10 @@ PrefabInstance:
       propertyPath: 'inventoryBackgroundImage.Array.data[13]'
       value: 
       objectReference: {fileID: 1184109531}
+    - target: {fileID: 6428830853144980743, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8412977
+      objectReference: {fileID: 0}
     - target: {fileID: 6428830853144980743, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0.0000000072378445
@@ -1170,22 +1198,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 801677329659419353, guid: 5ca674e45387ce64c9fac7080df8deb2, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -300
-      objectReference: {fileID: 0}
-    - target: {fileID: 3483458117709807392, guid: 5ca674e45387ce64c9fac7080df8deb2, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4489460289779788514, guid: 5ca674e45387ce64c9fac7080df8deb2, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -450
-      objectReference: {fileID: 0}
-    - target: {fileID: 4962336840455747700, guid: 5ca674e45387ce64c9fac7080df8deb2, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5469341219269516415, guid: 5ca674e45387ce64c9fac7080df8deb2, type: 3}
       propertyPath: doorKeypad
       value: 
@@ -1268,10 +1280,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6393763266357986813, guid: 5ca674e45387ce64c9fac7080df8deb2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7387467312723431812, guid: 5ca674e45387ce64c9fac7080df8deb2, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8620694555021394327, guid: 5ca674e45387ce64c9fac7080df8deb2, type: 3}

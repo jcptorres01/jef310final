@@ -22,6 +22,9 @@ public class PlayerMovementBehavior : MonoBehaviour
 
     public bool canMove = true;
 
+    [Header("Stealth")]
+    public bool isHidden;
+
     [HideInInspector] public float sprintSpeed;
 
     [Header("Keybinds")]
@@ -156,5 +159,10 @@ public class PlayerMovementBehavior : MonoBehaviour
             horizontalInput = 0;
             verticalInput = 0;
         }
+    }
+
+    public void SetHidden(bool hidden)
+    {
+        isHidden = hidden;
     }
 }

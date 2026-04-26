@@ -64,6 +64,9 @@ public class PlayerInventory : MonoBehaviour
 
     void Update()
     {
+        if (PauseMenu.isPaused == true)
+            return;
+        
         HandleInventoryToggle();
 
         if (inventoryOpen)
@@ -125,7 +128,7 @@ public class PlayerInventory : MonoBehaviour
 
         foreach (RaycastHit hit in hits)
         {
-            if (hit.collider.CompareTag("ItemPickUp"))
+            if (hit.collider.CompareTag("InteractiveObject"))
             {
                 float distance = Vector3.Distance(origin.position, hit.point);
                 if (distance < closestDistance)

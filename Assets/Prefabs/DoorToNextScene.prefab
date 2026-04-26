@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 396895034710896516}
   m_Layer: 0
   m_Name: DoorToNextScene
-  m_TagString: ItemPickUp
+  m_TagString: InteractiveObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,8 +124,8 @@ MonoBehaviour:
   keypadUI: {fileID: 0}
   correctCode: 1234
   maxLength: 4
-  loadNextSceneInstead: 1
   sceneLoader: {fileID: 396895034710896516}
+  player: {fileID: 0}
 --- !u!114 &5683529699662167879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +158,8 @@ MonoBehaviour:
   sceneLoader: {fileID: 396895034710896516}
   requiredYRotation: 90
   tolerance: 5
+  moveDistance: 3
+  moveSpeed: 2
 --- !u!114 &396895034710896516
 MonoBehaviour:
   m_ObjectHideFlags: 0
