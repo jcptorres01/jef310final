@@ -1,12 +1,17 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Item", menuName = "Scriptable Objects/Item")]
+[CreateAssetMenu(menuName = "Items/Weapon")]
 public class WeaponSO : ScriptableObject
 {
-    [Header("Properties")]
-    public float cooldown;
+    public string itemName;
     public Sprite item_sprite;
+    public GameObject itemPrefab;
 
-    [Header("Prefab")]
-    public GameObject itemPrefab; // what gets held in hand
+    public ItemType itemType;
+}
+
+public enum ItemType
+{
+    Camera,
+    Generic
 }

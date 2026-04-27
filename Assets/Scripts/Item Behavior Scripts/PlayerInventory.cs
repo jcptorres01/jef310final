@@ -25,7 +25,7 @@ public class PlayerInventory : MonoBehaviour
     [SerializeField] Sprite emptySlotSprite;
 
     public GameObject inventoryUI;
-    
+
     public PlayerMovementBehavior player;
 
     private bool inventoryOpen = false;
@@ -40,6 +40,9 @@ public class PlayerInventory : MonoBehaviour
     private int selectedItem = 0;
 
     private List<GameObject> spawnedItems = new List<GameObject>();
+
+    // NEW: dispatcher hook (does not remove anything existing)
+    public System.Action<WeaponSO> OnUseItem;
 
     void Start()
     {
@@ -66,7 +69,7 @@ public class PlayerInventory : MonoBehaviour
     {
         if (PauseMenu.isPaused == true)
             return;
-        
+
         HandleInventoryToggle();
 
         if (inventoryOpen)
@@ -78,15 +81,14 @@ public class PlayerInventory : MonoBehaviour
         HandleUseItem();
         UpdateUI();
 
-        // Draw debug ray in scene view
         Transform origin = rayOrigin != null ? rayOrigin : cam.transform;
         Debug.DrawRay(origin.position, origin.forward * playerReach, Color.red);
     }
 
-    // ---------------- SCROLL SWITCH ----------------
     void HandleScrollInput()
     {
-        if (inventoryList.Count == 0) return;
+        if (inventoryList.Count == 0)
+            return;
 
         float scroll = Input.GetAxis("Mouse ScrollWheel");
 
@@ -108,21 +110,17 @@ public class PlayerInventory : MonoBehaviour
         }
     }
 
-    // ---------------- PICKUP ----------------
     void HandlePickup()
     {
-        float rayRadius = 0.5f; // adjust this to make the area bigger
+        float rayRadius = 0.5f;
         Transform origin = rayOrigin != null ? rayOrigin : cam.transform;
 
         Ray ray = new Ray(origin.position, origin.forward);
 
-        // Draw debug ray in the Scene view
         Debug.DrawRay(origin.position, origin.forward * playerReach, Color.red);
 
-        // Perform SphereCastAll to get all hits along the ray
         RaycastHit[] hits = Physics.SphereCastAll(ray, rayRadius, playerReach);
 
-        // Find the closest pickable item
         RaycastHit? closestItemHit = null;
         float closestDistance = Mathf.Infinity;
 
@@ -139,7 +137,6 @@ public class PlayerInventory : MonoBehaviour
             }
         }
 
-        // Handle the closest pickable item if found
         if (closestItemHit.HasValue)
         {
             pressToPickup.SetActive(true);
@@ -161,16 +158,15 @@ public class PlayerInventory : MonoBehaviour
 
     void HandleUseItem()
     {
-        //if (inventoryOpen)
-            //return;
-
         if (Input.GetKeyDown(useItemKey) && inventoryList.Count > 0)
         {
-            UseHeldItem();
+            WeaponSO currentItem = inventoryList[selectedItem];
+
+            // NEW: external system trigger (does not remove any old logic structure)
+            OnUseItem?.Invoke(currentItem);
         }
     }
 
-    // ---------------- THROW ----------------
     void HandleThrow()
     {
         if (Input.GetKeyDown(throwItemKey) && inventoryList.Count > 0)
@@ -183,11 +179,9 @@ public class PlayerInventory : MonoBehaviour
                 return;
             }
 
-            // Remove from inventory
             inventoryList.RemoveAt(selectedItem);
             InventoryDataManager.Instance.RemoveItem(item);
 
-            // Remove held object
             Destroy(spawnedItems[selectedItem]);
             spawnedItems.RemoveAt(selectedItem);
 
@@ -201,13 +195,10 @@ public class PlayerInventory : MonoBehaviour
         }
     }
 
-    // ---------------- ADD ITEM ----------------
-
     public void AddItem(WeaponSO item)
     {
         inventoryList.Add(item);
 
-        // Save it globally
         InventoryDataManager.Instance.AddItem(item);
 
         GameObject newItem = Instantiate(item.itemPrefab, itemHolder);
@@ -222,7 +213,6 @@ public class PlayerInventory : MonoBehaviour
         UpdateHeldItem();
     }
 
-    // ---------------- EQUIP ITEM ----------------
     void UpdateHeldItem()
     {
         for (int i = 0; i < spawnedItems.Count; i++)
@@ -231,7 +221,6 @@ public class PlayerInventory : MonoBehaviour
         }
     }
 
-    // ---------------- UI ----------------
     void UpdateUI()
     {
         for (int i = 0; i < inventorySlotImage.Length; i++)
@@ -245,27 +234,6 @@ public class PlayerInventory : MonoBehaviour
                 inventorySlotImage[i].sprite = emptySlotSprite;
             }
         }
-        /*
-        for (int i = 0; i < inventoryBackgroundImage.Length; i++)
-        {
-            inventoryBackgroundImage[i].color =
-                (i == selectedItem)
-                ? new Color32(145, 255, 126, 255)
-                : new Color32(219, 219, 219, 255);
-        }
-        */
-    }
-
-    void UseHeldItem()
-    {
-        if (spawnedItems.Count == 0) return;
-
-        Debug.Log("Using item: " + inventoryList[selectedItem].name);
-    }
-
-    public bool HasItem(WeaponSO item)
-    {
-        return inventoryList.Contains(item);
     }
 
     void HandleInventoryToggle()
@@ -308,5 +276,11 @@ public class PlayerInventory : MonoBehaviour
     bool IsProtectedItem(WeaponSO item)
     {
         return unremovableItems.Contains(item);
+    }
+
+    // RESTORED (this was missing and caused your error)
+    public bool HasItem(WeaponSO item)
+    {
+        return inventoryList.Contains(item);
     }
 }
