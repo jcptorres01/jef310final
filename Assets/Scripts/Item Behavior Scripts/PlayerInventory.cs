@@ -30,9 +30,11 @@ public class PlayerInventory : MonoBehaviour
 
     private bool inventoryOpen = false;
 
+    private List<WeaponSO> selectedItems = new List<WeaponSO>();
+
     [Header("Settings")]
     public int playerReach = 3;
-    public KeyCode throwItemKey = KeyCode.Q;
+    public KeyCode throwItemKey = KeyCode.C;
     public KeyCode pickUpItemKey = KeyCode.E;
     public KeyCode useItemKey = KeyCode.Mouse0;
     public KeyCode toggleInventoryKey = KeyCode.Q;
@@ -221,17 +223,19 @@ public class PlayerInventory : MonoBehaviour
         }
     }
 
+    [SerializeField] private InventorySlotUI[] slots;
+
     void UpdateUI()
     {
-        for (int i = 0; i < inventorySlotImage.Length; i++)
+        for (int i = 0; i < slots.Length; i++)
         {
             if (i < inventoryList.Count)
             {
-                inventorySlotImage[i].sprite = inventoryList[i].item_sprite;
+                slots[i].SetItem(inventoryList[i]);
             }
             else
             {
-                inventorySlotImage[i].sprite = emptySlotSprite;
+                slots[i].SetItem(null);
             }
         }
     }
@@ -278,9 +282,94 @@ public class PlayerInventory : MonoBehaviour
         return unremovableItems.Contains(item);
     }
 
-    // RESTORED (this was missing and caused your error)
+    
     public bool HasItem(WeaponSO item)
     {
         return inventoryList.Contains(item);
+    }
+
+    // --------- Inventory UI Behavior --------------
+
+    public void SwapItems(int indexA, int indexB)
+    {
+        WeaponSO temp = inventoryList[indexA];
+        inventoryList[indexA] = inventoryList[indexB];
+        inventoryList[indexB] = temp;
+
+        Debug.Log("Button Pressed");
+
+        UpdateUI();
+    }
+
+    public void OnSlotClicked(WeaponSO item)
+    {
+        if (selectedItems.Contains(item))
+            selectedItems.Remove(item);
+        else
+            selectedItems.Add(item);
+
+        CheckCrafting();
+    }
+
+    void CheckCrafting()
+    {
+        if (selectedItems.Count == 3 && AllAreFragments(selectedItems))
+        {
+            CraftKey();
+        }
+    }
+
+    bool AllAreFragments(List<WeaponSO> items)
+    {
+        foreach (var item in items)
+        {
+            if (!item.name.Contains("KeyFragment_Item"))
+                return false;
+        }
+        return true;
+    }
+
+    [Header("Crafted Key")]
+    [SerializeField] private WeaponSO fullKeySO; // assign in Inspector
+
+    void CraftKey()
+    {
+        foreach (var item in selectedItems)
+        {
+            inventoryList.Remove(item);
+            InventoryDataManager.Instance.RemoveItem(item);
+        }
+
+        selectedItems.Clear();
+
+        AddItem(fullKeySO);
+
+        UpdateUI();
+    }
+
+    public void RemoveItem(WeaponSO item)
+    {
+        if (!inventoryList.Contains(item))
+            return;
+
+        int index = inventoryList.IndexOf(item);
+
+        inventoryList.RemoveAt(index);
+        InventoryDataManager.Instance.RemoveItem(item);
+
+        if (index < spawnedItems.Count)
+        {
+            Destroy(spawnedItems[index]);
+            spawnedItems.RemoveAt(index);
+        }
+
+        if (selectedItem >= inventoryList.Count)
+            selectedItem = inventoryList.Count - 1;
+
+        if (selectedItem < 0)
+            selectedItem = 0;
+
+        UpdateHeldItem();
+        UpdateUI();
     }
 }
