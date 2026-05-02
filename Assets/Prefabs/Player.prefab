@@ -1380,69 +1380,20 @@ MonoBehaviour:
   inventoryList: []
   startingItems:
   - {fileID: 11400000, guid: 65d88b19a3be5a141a6fa13acd935bdd, type: 2}
-  - {fileID: 11400000, guid: b773401b473670146851543a64659c06, type: 2}
-  - {fileID: 11400000, guid: b773401b473670146851543a64659c06, type: 2}
-  - {fileID: 11400000, guid: b773401b473670146851543a64659c06, type: 2}
   unremovableItems:
   - {fileID: 11400000, guid: 65d88b19a3be5a141a6fa13acd935bdd, type: 2}
   cam: {fileID: 4464215853198897830}
   itemHolder: {fileID: 4567260515564453434}
   pressToPickup: {fileID: 0}
   rayOrigin: {fileID: 5429888660398669672}
-  inventorySlotImage:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  inventoryBackgroundImage:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  emptySlotSprite: {fileID: 0}
   inventoryUI: {fileID: 0}
   player: {fileID: 5868426916726955770}
-  playerReach: 1
+  playerReach: 3
   throwItemKey: 99
   pickUpItemKey: 101
   useItemKey: 323
   toggleInventoryKey: 113
-  slots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  fullKeySO: {fileID: 11400000, guid: 310c46574cfa24049b429533eaafea71, type: 2}
+  slots: []
 --- !u!114 &1781234858585558485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1554,7 +1505,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4574390572708757382}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5405721, y: 0.0000000072378445, z: -0.0000000046506448, w: 0.8412977}
+  m_LocalRotation: {x: 0.5405721, y: -0.0000000072378445, z: 0.0000000046506448, w: 0.8412977}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1633,7 +1584,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4653208758027428570}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5162547, y: 0.000000020840057, z: -0.000000012562281, w: 0.8564351}
+  m_LocalRotation: {x: 0.5162547, y: -0.00000002084006, z: 0.000000012562283, w: 0.8564351}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2263,7 +2214,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8165433207089384462}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5646033, y: 0.000000044909093, z: -0.000000030720834, w: 0.82536244}
+  m_LocalRotation: {x: 0.5646033, y: -0.000000044909093, z: 0.000000030720834, w: 0.82536244}
   m_LocalPosition: {x: 0, y: 4.5, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

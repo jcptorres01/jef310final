@@ -15,22 +15,16 @@ public class PlayerInventory : MonoBehaviour
 
     [Header("References")]
     [SerializeField] Camera cam;
-    [SerializeField] Transform itemHolder; // where held items appear
+    [SerializeField] Transform itemHolder;
     [SerializeField] GameObject pressToPickup;
-    [SerializeField] Transform rayOrigin; // the object from which the ray will fire
+    [SerializeField] Transform rayOrigin;
 
     [Header("Inventory UI")]
-    [SerializeField] Image[] inventorySlotImage;
-    [SerializeField] Image[] inventoryBackgroundImage;
-    [SerializeField] Sprite emptySlotSprite;
-
     public GameObject inventoryUI;
 
     public PlayerMovementBehavior player;
 
     private bool inventoryOpen = false;
-
-    private List<WeaponSO> selectedItems = new List<WeaponSO>();
 
     [Header("Settings")]
     public int playerReach = 3;
@@ -43,8 +37,9 @@ public class PlayerInventory : MonoBehaviour
 
     private List<GameObject> spawnedItems = new List<GameObject>();
 
-    // NEW: dispatcher hook (does not remove anything existing)
     public System.Action<WeaponSO> OnUseItem;
+
+    [SerializeField] private InventorySlotUI[] slots;
 
     void Start()
     {
@@ -54,7 +49,7 @@ public class PlayerInventory : MonoBehaviour
 
         foreach (WeaponSO item in snapshot)
         {
-            AddItem(item);
+            LoadItem(item);
         }
 
         if (InventoryDataManager.Instance.savedInventory.Count == 0)
@@ -81,10 +76,26 @@ public class PlayerInventory : MonoBehaviour
         HandlePickup();
         HandleThrow();
         HandleUseItem();
+
         UpdateUI();
 
         Transform origin = rayOrigin != null ? rayOrigin : cam.transform;
         Debug.DrawRay(origin.position, origin.forward * playerReach, Color.red);
+    }
+
+    void UpdateUI()
+    {
+        for (int i = 0; i < slots.Length; i++)
+        {
+            if (i < inventoryList.Count)
+            {
+                slots[i].SetItem(inventoryList[i]);
+            }
+            else
+            {
+                slots[i].SetItem(null);
+            }
+        }
     }
 
     void HandleScrollInput()
@@ -163,8 +174,6 @@ public class PlayerInventory : MonoBehaviour
         if (Input.GetKeyDown(useItemKey) && inventoryList.Count > 0)
         {
             WeaponSO currentItem = inventoryList[selectedItem];
-
-            // NEW: external system trigger (does not remove any old logic structure)
             OnUseItem?.Invoke(currentItem);
         }
     }
@@ -194,6 +203,7 @@ public class PlayerInventory : MonoBehaviour
                 selectedItem = 0;
 
             UpdateHeldItem();
+            UpdateUI();
         }
     }
 
@@ -213,6 +223,24 @@ public class PlayerInventory : MonoBehaviour
         spawnedItems.Add(newItem);
 
         UpdateHeldItem();
+        UpdateUI();
+    }
+
+    public void LoadItem(WeaponSO item)
+    {
+        inventoryList.Add(item);
+
+        GameObject newItem = Instantiate(item.itemPrefab, itemHolder);
+
+        newItem.transform.localPosition = Vector3.zero;
+        newItem.transform.localRotation = Quaternion.identity;
+
+        newItem.SetActive(false);
+
+        spawnedItems.Add(newItem);
+
+        UpdateHeldItem();
+        UpdateUI();
     }
 
     void UpdateHeldItem()
@@ -220,23 +248,6 @@ public class PlayerInventory : MonoBehaviour
         for (int i = 0; i < spawnedItems.Count; i++)
         {
             spawnedItems[i].SetActive(i == selectedItem);
-        }
-    }
-
-    [SerializeField] private InventorySlotUI[] slots;
-
-    void UpdateUI()
-    {
-        for (int i = 0; i < slots.Length; i++)
-        {
-            if (i < inventoryList.Count)
-            {
-                slots[i].SetItem(inventoryList[i]);
-            }
-            else
-            {
-                slots[i].SetItem(null);
-            }
         }
     }
 
@@ -282,69 +293,9 @@ public class PlayerInventory : MonoBehaviour
         return unremovableItems.Contains(item);
     }
 
-    
     public bool HasItem(WeaponSO item)
     {
         return inventoryList.Contains(item);
-    }
-
-    // --------- Inventory UI Behavior --------------
-
-    public void SwapItems(int indexA, int indexB)
-    {
-        WeaponSO temp = inventoryList[indexA];
-        inventoryList[indexA] = inventoryList[indexB];
-        inventoryList[indexB] = temp;
-
-        Debug.Log("Button Pressed");
-
-        UpdateUI();
-    }
-
-    public void OnSlotClicked(WeaponSO item)
-    {
-        if (selectedItems.Contains(item))
-            selectedItems.Remove(item);
-        else
-            selectedItems.Add(item);
-
-        CheckCrafting();
-    }
-
-    void CheckCrafting()
-    {
-        if (selectedItems.Count == 3 && AllAreFragments(selectedItems))
-        {
-            CraftKey();
-        }
-    }
-
-    bool AllAreFragments(List<WeaponSO> items)
-    {
-        foreach (var item in items)
-        {
-            if (!item.name.Contains("KeyFragment_Item"))
-                return false;
-        }
-        return true;
-    }
-
-    [Header("Crafted Key")]
-    [SerializeField] private WeaponSO fullKeySO; // assign in Inspector
-
-    void CraftKey()
-    {
-        foreach (var item in selectedItems)
-        {
-            inventoryList.Remove(item);
-            InventoryDataManager.Instance.RemoveItem(item);
-        }
-
-        selectedItems.Clear();
-
-        AddItem(fullKeySO);
-
-        UpdateUI();
     }
 
     public void RemoveItem(WeaponSO item)
