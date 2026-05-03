@@ -40,7 +40,7 @@ public class ItemActions : MonoBehaviour
     {
         AttackHitBox.SetActive(true);
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(0.2f);
 
         AttackHitBox.SetActive(false);
     }
