@@ -26,6 +26,10 @@ public class ItemUseDispatcher : MonoBehaviour
                 actions.TakePicture();
                 break;
 
+            case ItemType.Weapon:
+                actions.Attacking();
+                break;
+
             default:
                 Debug.Log("Used item: " + item.itemName);
                 break;

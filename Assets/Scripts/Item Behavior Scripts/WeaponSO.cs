@@ -13,5 +13,6 @@ public class WeaponSO : ScriptableObject
 public enum ItemType
 {
     Camera,
-    Generic
+    Generic,
+    Weapon
 }
