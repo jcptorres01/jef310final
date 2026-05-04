@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|c:\\users\\fflor\\onedrive\\desktop\\spring 2026\\game 310\\final project\\untitled (finalproject)\\assets\\scripts\\enemybehavior\\enemyvision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybehavior\\enemyvision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyVision.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\EnemyBehavior\\EnemyVision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBehavior\\EnemyVision.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\EnemyBehavior\\EnemyVision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyBehavior\\EnemyVision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T17:58:33.28Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
