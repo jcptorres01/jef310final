@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scripts\\item behavior scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item behavior scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scripts\\battlemechanics\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlemechanics\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|c:\\users\\fflor\\onedrive\\desktop\\spring 2026\\game 310\\final project\\untitled (finalproject)\\assets\\scripts\\enemybehavior\\enemynavmeshmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|c:\\users\\fflor\\onedrive\\desktop\\spring 2026\\game 310\\final project\\untitled (finalproject)\\assets\\scripts\\uibehavior\\damagevignetteui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uibehavior\\damagevignetteui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|c:\\users\\fflor\\onedrive\\desktop\\spring 2026\\game 310\\final project\\untitled (finalproject)\\assets\\scripts\\puzzlemechanics\\door mechanics\\statuerotateddooropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzlemechanics\\door mechanics\\statuerotateddooropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scripts\\battlemechanics\\enemydamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlemechanics\\enemydamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scripts\\battlemechanics\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlemechanics\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scripts\\enemybehavior\\enemyvision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybehavior\\enemyvision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scripts\\enemybehavior\\enemynavmeshmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybehavior\\enemynavmeshmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|c:\\users\\fflor\\onedrive\\desktop\\spring 2026\\game 310\\final project\\untitled (finalproject)\\assets\\scripts\\enemybehavior\\enemyvision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybehavior\\enemyvision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scripts\\new player \u0026 camera behavior\\playermovementbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\new player \u0026 camera behavior\\playermovementbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scripts\\sneaktriggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sneaktriggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|c:\\users\\fflor\\onedrive\\desktop\\spring 2026\\game 310\\final project\\untitled (finalproject)\\assets\\scripts\\item behavior scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item behavior scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scripts\\puzzlemechanics\\breakableobjectbehvaior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +65,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\assets\\scripts\\item behavior scripts\\itemusedispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item behavior scripts\\itemusedispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|c:\\users\\fflor\\onedrive\\desktop\\spring 2026\\game 310\\final project\\untitled (finalproject)\\assets\\scripts\\item behavior scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{A9EAD5D3-F377-F474-7758-E5E661AD2668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item behavior scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,32 +83,141 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EnemyNavMeshMovement.cs",
-              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\EnemyBehavior\\EnemyNavMeshMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBehavior\\EnemyNavMeshMovement.cs",
-              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\EnemyBehavior\\EnemyNavMeshMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyBehavior\\EnemyNavMeshMovement.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCwAAAAKAAAAAAAAAA==",
+              "Title": "DamageVignetteUI.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\UIBehavior\\DamageVignetteUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIBehavior\\DamageVignetteUI.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\UIBehavior\\DamageVignetteUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIBehavior\\DamageVignetteUI.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T18:12:25.008Z",
+              "WhenOpened": "2026-05-07T01:09:45.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "StatueRotatedDoorOpen.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\PuzzleMechanics\\Door Mechanics\\StatueRotatedDoorOpen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleMechanics\\Door Mechanics\\StatueRotatedDoorOpen.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\PuzzleMechanics\\Door Mechanics\\StatueRotatedDoorOpen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PuzzleMechanics\\Door Mechanics\\StatueRotatedDoorOpen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T01:09:39.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyAttack.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\BattleMechanics\\EnemyAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleMechanics\\EnemyAttack.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\BattleMechanics\\EnemyAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleMechanics\\EnemyAttack.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwCcAAAABAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-05-07T01:09:39.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyDamage.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\BattleMechanics\\EnemyDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleMechanics\\EnemyDamage.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\BattleMechanics\\EnemyDamage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleMechanics\\EnemyDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-05-07T01:09:39.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\BattleMechanics\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleMechanics\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\BattleMechanics\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleMechanics\\PlayerHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T01:09:39.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SneakTriggerZone.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\SneakTriggerZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SneakTriggerZone.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\SneakTriggerZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SneakTriggerZone.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCgAAAABAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-05-07T01:09:39.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EnemyVision.cs",
               "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\EnemyBehavior\\EnemyVision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBehavior\\EnemyVision.cs",
               "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\EnemyBehavior\\EnemyVision.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyBehavior\\EnemyVision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T18:12:20.548Z",
-              "EditorCaption": ""
+              "ViewState": "AgIAAEIAAAAAAAAAAAAUwFoAAAABAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-05-07T01:09:39.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "PlayerMovementBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\New Player \u0026 Camera Behavior\\PlayerMovementBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\New Player \u0026 Camera Behavior\\PlayerMovementBehavior.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\New Player \u0026 Camera Behavior\\PlayerMovementBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\New Player \u0026 Camera Behavior\\PlayerMovementBehavior.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwBgAAAAEAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-05-07T01:09:39.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerInventory.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\Item Behavior Scripts\\PlayerInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Item Behavior Scripts\\PlayerInventory.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\Item Behavior Scripts\\PlayerInventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Item Behavior Scripts\\PlayerInventory.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAEwC8AAABjAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-05-07T01:09:39.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyNavMeshMovement.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\EnemyBehavior\\EnemyNavMeshMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBehavior\\EnemyNavMeshMovement.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\EnemyBehavior\\EnemyNavMeshMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyBehavior\\EnemyNavMeshMovement.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCwAAAAKAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-05-07T01:09:39.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlayerInventory.cs",
+              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\Item Behavior Scripts\\PlayerInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Item Behavior Scripts\\PlayerInventory.cs",
+              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\Item Behavior Scripts\\PlayerInventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Item Behavior Scripts\\PlayerInventory.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwFsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T01:09:39.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\EnemyBehavior\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBehavior\\EnemyHealth.cs",
@@ -84,11 +225,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyBehavior\\EnemyHealth.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T21:38:45.945Z"
+              "WhenOpened": "2026-05-07T01:09:39.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "HitBoxCollision.cs",
               "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\Item Behavior Scripts\\HitBoxCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Item Behavior Scripts\\HitBoxCollision.cs",
@@ -96,24 +237,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Item Behavior Scripts\\HitBoxCollision.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwCcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T21:38:45.946Z"
+              "WhenOpened": "2026-05-07T01:09:39.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerInventory.cs",
-              "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\Item Behavior Scripts\\PlayerInventory.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Item Behavior Scripts\\PlayerInventory.cs",
-              "ToolTip": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\Item Behavior Scripts\\PlayerInventory.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Item Behavior Scripts\\PlayerInventory.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAEwC8AAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T21:38:45.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "BreakableObjectBehvaior.cs",
               "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\PuzzleMechanics\\BreakableObjectBehvaior.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleMechanics\\BreakableObjectBehvaior.cs",
@@ -121,11 +249,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PuzzleMechanics\\BreakableObjectBehvaior.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAIwDgAAAAWAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-05-03T21:48:51.106Z"
+              "WhenOpened": "2026-05-07T01:09:39.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "ItemActions.cs",
               "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\Item Behavior Scripts\\ItemActions.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Item Behavior Scripts\\ItemActions.cs",
@@ -133,11 +261,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Item Behavior Scripts\\ItemActions.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAgwCoAAAAsAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-05-03T21:38:45.947Z"
+              "WhenOpened": "2026-05-07T01:09:39.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "ItemUseDispatcher.cs",
               "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\Item Behavior Scripts\\ItemUseDispatcher.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Item Behavior Scripts\\ItemUseDispatcher.cs",
@@ -145,11 +273,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Item Behavior Scripts\\ItemUseDispatcher.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA9wCUAAAABAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-05-03T21:38:45.949Z"
+              "WhenOpened": "2026-05-07T01:09:39.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "WeaponSO.cs",
               "DocumentMoniker": "C:\\Users\\fflor\\OneDrive\\Desktop\\Spring 2026\\GAME 310\\Final Project\\Untitled (FinalProject)\\Assets\\Scripts\\Item Behavior Scripts\\WeaponSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Item Behavior Scripts\\WeaponSO.cs",
@@ -157,7 +285,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Item Behavior Scripts\\WeaponSO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-05-03T21:38:45.95Z"
+              "WhenOpened": "2026-05-07T01:09:39.963Z"
             }
           ]
         }

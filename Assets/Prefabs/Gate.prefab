@@ -12,6 +12,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 698809433982583093, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
+      propertyPath: m_Size.z
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 698809433982583093, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1010320981694855117, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1272428329994000662, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
       propertyPath: m_LocalScale.x
       value: 6
@@ -56,6 +68,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2602515065401075477, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3191141093622981956, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
       propertyPath: sceneLoader
       value: 
@@ -80,7 +96,8 @@ PrefabInstance:
     - {fileID: 9136987768285382972, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
     - {fileID: 5683529699662167879, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
     - {fileID: 396895034710896516, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1010320981694855117, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
