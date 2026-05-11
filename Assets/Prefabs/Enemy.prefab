@@ -532,7 +532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   healthBar: {fileID: 4894161649114460393}
-  knockbackForce: 250
+  knockbackForce: 150
   upwardForce: 50
 --- !u!65 &6333841122438894099
 BoxCollider:

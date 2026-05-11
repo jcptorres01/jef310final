@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class EnemyVision : MonoBehaviour
 {
+    [Header("Enemy Type")]
+    public  bool IsEnemyLongRange;
+
     [Header("Vision Settings")]
     public float viewDistance = 15f;
 
@@ -85,7 +88,10 @@ public class EnemyVision : MonoBehaviour
         // ATTACK IF CLOSE ENOUGH
         if (distance <= attackRange)
         {
-            enemyAttack.TryAttack();
+            if (!IsEnemyLongRange)
+            {
+                enemyAttack.TryAttack();
+            }
         }
     }
 }
