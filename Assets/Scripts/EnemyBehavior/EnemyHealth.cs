@@ -19,6 +19,8 @@ public class EnemyHealth : MonoBehaviour
 
     private Rigidbody rb;
 
+    public EnemyAnimationController animController;
+
     void Start()
     {
         // Main health logic (Script 1)
@@ -51,15 +53,16 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        // Main logic (Script 1)
         currentHealth -= damage;
 
         Debug.Log(gameObject.name + " took damage!");
 
-        // Apply knockback
-        ApplyKnockback();
+        if (animController != null)
+        {
+            animController.PlayHit();
+        }
 
-        // Update UI
+        ApplyKnockback();
         UpdateHealthBar();
 
         if (currentHealth <= 0)
@@ -96,7 +99,17 @@ public class EnemyHealth : MonoBehaviour
     {
         Debug.Log(gameObject.name + " died!");
 
+        if (animController != null)
+        {
+            animController.PlayDeath();
+        }
+
+        // Delay disable so animation can play
+        Invoke(nameof(DisableEnemy), 1.5f);
+    }
+
+    void DisableEnemy()
+    {
         gameObject.SetActive(false);
-        // OR Destroy(gameObject);
     }
 }

@@ -94,5 +94,13 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player Died");
+
+        PlayerAnimationController anim =
+            GetComponent<PlayerAnimationController>();
+
+        if (anim != null)
+        {
+            anim.SetDead();
+        }
     }
 }

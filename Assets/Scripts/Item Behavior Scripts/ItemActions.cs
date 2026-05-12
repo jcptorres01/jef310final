@@ -5,6 +5,8 @@ public class ItemActions : MonoBehaviour
 {
     public PlayerInventory player;
 
+    public PlayerAnimationController animController;
+
     [Header("Camera Dependencies")]
     public GameObject flashObject;
 
@@ -16,9 +18,12 @@ public class ItemActions : MonoBehaviour
     {
         Debug.Log("Camera used!");
 
-        StartCoroutine(Flash());
+        if (animController != null)
+        {
+            animController.PlayCameraAnimation();
+        }
 
-        // your camera logic here
+        StartCoroutine(Flash());
     }
 
     private IEnumerator Flash()
@@ -33,6 +38,11 @@ public class ItemActions : MonoBehaviour
     // Attacking
     public void Attacking()
     {
+        if (animController != null)
+        {
+            animController.PlayAttackAnimation();
+        }
+
         StartCoroutine(Waiting());
     }
 

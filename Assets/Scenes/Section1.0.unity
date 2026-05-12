@@ -171,15 +171,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1162492281120366474, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.49269882
+      value: 0.49269885
       objectReference: {fileID: 0}
     - target: {fileID: 1162492281120366474, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000029945966
+      value: 0.000000029945994
       objectReference: {fileID: 0}
     - target: {fileID: 1162492281120366474, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000016955122
+      value: -0.000000016955134
       objectReference: {fileID: 0}
     - target: {fileID: 2177929686876615658, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -203,15 +203,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2551801873913763572, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.49269882
+      value: 0.49269888
       objectReference: {fileID: 0}
     - target: {fileID: 2551801873913763572, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000005989196
+      value: 0.00000003961482
       objectReference: {fileID: 0}
     - target: {fileID: 2551801873913763572, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000003391025
+      value: -0.000000022429534
       objectReference: {fileID: 0}
     - target: {fileID: 4532933218102103419, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_Name
@@ -287,7 +287,7 @@ PrefabInstance:
       objectReference: {fileID: 229624112}
     - target: {fileID: 4940635008833851299, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: startingItems.Array.size
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4940635008833851299, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: 'startingItems.Array.data[1]'

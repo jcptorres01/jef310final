@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: c28eb93b50ff83e49ad7b556cd558df0
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 3f5cec6c0eaaf474b82dd65856df921a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 4d7d9651ade0d344a8d373d5b478cc0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: ae5ebf9d4e86eed4c8e5270ed3862241, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: a9d68ed665ee9714e99c8875bccd4093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 5ca58f5fc122066459c28fff7a949ed1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: babf07107c3b48e42b95407b2a9439a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 1dbc1716bf423bf4dbb468486be6ab15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 2955f50a2f0fa484d880421cf8dea96b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 5a333da3fc1a1804288b473955861919, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: 3d018c7d4234fd64f989d4edba2fa0dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: c78ace85e8dbf2e4da2230d81a57dd18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: bb7d6e103d47f9f48bd236eb79e477ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: c8cd6fa4fd98e454fb360432cef57479, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.013
+    second: {fileID: 2100000, guid: 5b406b48b4b6ccc439e624edd982c54a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.014
+    second: {fileID: 2100000, guid: 0a3c6146283e41b4f9583d2cf7cdd609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: c28c157af00675c49a928c7cfd5ebc2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.016
+    second: {fileID: 2100000, guid: 471d6edda4fbc284a966d711673f0578, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.017
+    second: {fileID: 2100000, guid: 9c56ed3cb0ce4da40bc63add51ca7584, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.018
+    second: {fileID: 2100000, guid: 67ee92a85102b4a43935cb09af9bad76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.019
+    second: {fileID: 2100000, guid: 8e3b02d4cde27fa43a18a4e4aae50cb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.020
+    second: {fileID: 2100000, guid: ba577549c88461a41b3adb5d56b1bc04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.021
+    second: {fileID: 2100000, guid: 490c6e77fbfcb7644964d943320c505e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.022
+    second: {fileID: 2100000, guid: 4e0277088cea23741abb29128bf07c5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.023
+    second: {fileID: 2100000, guid: 339bfe1a3b5b53645b0b468362363b00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.024
+    second: {fileID: 2100000, guid: 519450e447e6014478d469178cf3fccb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.025
+    second: {fileID: 2100000, guid: 6a3d70dedc0368f49baf0e58c92e46ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.026
+    second: {fileID: 2100000, guid: 38e473e03e1b6e044b698fcd4680571b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.027
+    second: {fileID: 2100000, guid: 55752ebb088505a4d9615d248b675a6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.028
+    second: {fileID: 2100000, guid: 8e0e5827af4534946bc3103ba6b011f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.029
+    second: {fileID: 2100000, guid: 11fae20f21431a64196cc8e8a4434289, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.030
+    second: {fileID: 2100000, guid: 74163571953c57a48a8db15d47c85743, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.031
+    second: {fileID: 2100000, guid: 916c2f96d14311247864a0413cb67e1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.032
+    second: {fileID: 2100000, guid: f38e6f0812e028d4f881f8173c31e88b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.033
+    second: {fileID: 2100000, guid: 2d34bd6417f1e8042ae8c591197c617c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.034
+    second: {fileID: 2100000, guid: 5ef92cc8140f031419384eee580085e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2
+    second: {fileID: 2100000, guid: b378caa56320401409577fef0b776090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.001
+    second: {fileID: 2100000, guid: a4b14eda26919ae4492a3c1228814113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.002
+    second: {fileID: 2100000, guid: 0d5a5e90c39d08440853f3bf18409079, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.003
+    second: {fileID: 2100000, guid: fbf26a10b034e8d469afda70ee3b388d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.004
+    second: {fileID: 2100000, guid: accf53993c5b8c14aa38c19a29d04712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.005
+    second: {fileID: 2100000, guid: 5c62fa220468781468179892c7d39cc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.006
+    second: {fileID: 2100000, guid: 2b25ed6ff2720354cb847fc331684ffc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.007
+    second: {fileID: 2100000, guid: 2c4d63b24fbf3834db580c9e6f85146d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.008
+    second: {fileID: 2100000, guid: 08e4a646988612549beddd5d097e87ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.009
+    second: {fileID: 2100000, guid: 4a7b144ff80741b4ead384364a11e1f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.010
+    second: {fileID: 2100000, guid: 8062c6fabb42af94ba29532a285a1baa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.011
+    second: {fileID: 2100000, guid: f570da4fdb928e74fa594523a2687732, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.012
+    second: {fileID: 2100000, guid: d1731d5ed5c963b4c896ea45631249f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.013
+    second: {fileID: 2100000, guid: 9f59a534601f7664e93c05716108bbcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.014
+    second: {fileID: 2100000, guid: 443eb0b3e56fb944b80a6e35f9557669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.015
+    second: {fileID: 2100000, guid: d68c2685893ddc54e82085f3f9624bd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.016
+    second: {fileID: 2100000, guid: 26baf95e27f5aef43a2b277fa892ecee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.017
+    second: {fileID: 2100000, guid: 2e4d200b6b8b79540b2f54bb9ca5cae7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.018
+    second: {fileID: 2100000, guid: 79030730746bd4149bc7203e60aab4e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.019
+    second: {fileID: 2100000, guid: 6ed3b19d2ca7edd499aad4a4a9730196, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.020
+    second: {fileID: 2100000, guid: 7d19955b03a934f4980c38cbacceb21a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.021
+    second: {fileID: 2100000, guid: 9388c0ef69c521a49a199fbbc69f05a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.022
+    second: {fileID: 2100000, guid: 28b710b77cc09864d8989e98e995d4a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.023
+    second: {fileID: 2100000, guid: adc7c53f0dafba74db9cdcb2f539f170, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.025
+    second: {fileID: 2100000, guid: a8beaaaf49e4b154cae38b6740531bd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.026
+    second: {fileID: 2100000, guid: 0bc21f2e77402854582a5a7990ddbefc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.027
+    second: {fileID: 2100000, guid: 1ad128ea4517f684ba7dfc9b4c0189f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.028
+    second: {fileID: 2100000, guid: 31a623801698b074b8f548fbdbe52025, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.029
+    second: {fileID: 2100000, guid: 19ea3a1d35d169f47a69b96337915a90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.030
+    second: {fileID: 2100000, guid: be43a9b6ca5e21f4493531ab5f254a33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.031
+    second: {fileID: 2100000, guid: 19fca3b9a5e4bf0479a6bfff5d9bfe88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.032
+    second: {fileID: 2100000, guid: 55d68f23b221f63439290784397cd027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.033
+    second: {fileID: 2100000, guid: ac0cb67dbc3dadd4091a0b6237d61967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.034
+    second: {fileID: 2100000, guid: ce6281c4445f48a46a1a057a5b69a48f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.035
+    second: {fileID: 2100000, guid: e1212333002e1e94fac05e03dd810f78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.036
+    second: {fileID: 2100000, guid: e2f4fa4789974ce428e8bf7ffd15ae13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.037
+    second: {fileID: 2100000, guid: 62404251693b8a84dba2d19ab7763e6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.038
+    second: {fileID: 2100000, guid: c3021b320bee3c1428b9faeba8e0ab88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.039
+    second: {fileID: 2100000, guid: 1ff99785cee49c54a9d9d0c4c8bfd1b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.040
+    second: {fileID: 2100000, guid: cc6615bb0922a514f8fbbbbfc5b65eed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.041
+    second: {fileID: 2100000, guid: 2c5fdaf19aa5c3140b46f04adf22da1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.042
+    second: {fileID: 2100000, guid: 7d7d3178c4500ca4db72c0ffb8762928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.043
+    second: {fileID: 2100000, guid: 7b44763fc5b270d438224e6eb4120eaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.044
+    second: {fileID: 2100000, guid: e1ee0fda813690646b385fab21a860d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.045
+    second: {fileID: 2100000, guid: 77a9e96f79b74114f8170de86e4e9910, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.046
+    second: {fileID: 2100000, guid: 0725174592cb56442b9c66b8d6e4fe2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.047
+    second: {fileID: 2100000, guid: a3617d51c7241fa4b8c2bc40388ef24f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.048
+    second: {fileID: 2100000, guid: f86f66f006dbe8d4e9f7c8e8eb47c78b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.049
+    second: {fileID: 2100000, guid: 4e326e2c2f2f29044966cc6dbed4240f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.050
+    second: {fileID: 2100000, guid: 99d332c245816604d9d8f798e31f1765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.051
+    second: {fileID: 2100000, guid: e0c9d29cedd5a4740ba066494a283665, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.052
+    second: {fileID: 2100000, guid: d1cf4e9b6c7c1b3488f3c058c755db3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_tex_2.053
+    second: {fileID: 2100000, guid: f93bd0beacad4b445b0a199f5bcd5b14, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
