@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.008958812, g: 0.013101446, b: 0.02045097, a: 1}
+  m_IndirectSpecularColor: {r: 0.008952402, g: 0.013101039, b: 0.020449812, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -840,15 +840,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1272428329994000662, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 67.62
+      value: 46.03
       objectReference: {fileID: 0}
     - target: {fileID: 1272428329994000662, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 27.1
+      value: 24.18
       objectReference: {fileID: 0}
     - target: {fileID: 1272428329994000662, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -90.98
+      value: -27.4
       objectReference: {fileID: 0}
     - target: {fileID: 1272428329994000662, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1653,13 +1653,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 632180978315881849, guid: 4788bb78d7622ba4ea628213751a28a3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7243853318136046603, guid: 4788bb78d7622ba4ea628213751a28a3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.39
       objectReference: {fileID: 0}
     - target: {fileID: 7243853318136046603, guid: 4788bb78d7622ba4ea628213751a28a3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25.76
+      value: 25.304
       objectReference: {fileID: 0}
     - target: {fileID: 7243853318136046603, guid: 4788bb78d7622ba4ea628213751a28a3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1696,6 +1700,10 @@ PrefabInstance:
     - target: {fileID: 8450967837433379141, guid: 4788bb78d7622ba4ea628213751a28a3, type: 3}
       propertyPath: m_Name
       value: Key_Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 8450967837433379141, guid: 4788bb78d7622ba4ea628213751a28a3, type: 3}
+      propertyPath: m_TagString
+      value: InteractiveObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1990,6 +1998,10 @@ PrefabInstance:
     - target: {fileID: 9179340133618694327, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
       propertyPath: m_Name
       value: DoorToNextScene (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179340133618694327, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9136987768285382972, guid: 094c671bb3bcd174db4c91b4910653a5, type: 3}
@@ -3475,11 +3487,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6428830853144980743, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000034013247
+      value: -0.000000034013244
       objectReference: {fileID: 0}
     - target: {fileID: 6428830853144980743, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000017983231
+      value: 0.00000001798323
       objectReference: {fileID: 0}
     - target: {fileID: 7184145219111369006, guid: 1784197ac8b13964a9f5d491cc67fadb, type: 3}
       propertyPath: m_LocalPosition.x
